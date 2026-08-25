@@ -38,6 +38,9 @@ nav a {
     display: inline-block;
 
 }
+nav a:hover{
+    background-color: #c77dff;
+}
 
 main {
     width: 80%;
