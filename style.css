@@ -103,3 +103,9 @@ button{
 button:hover{
     background-color: aquamarine;
 }
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
