@@ -1,3 +1,16 @@
+
+:root {
+  --cor-fundo: brown;
+  --cor-texto: black;
+  --cor-principal: rgb(24, 9, 9);
+  --cor-secundaria: #9b4d57;
+  --cor-hover: #c77dff;
+  --cor-superficie: brown;
+  --cor-card: aliceblue;
+  --cor-legenda: #555555;
+  --cor-clara: white;
+  --cor-rodape: rgb(255, 131, 127);
+}
 body {
     background-color: brown;
     color: black;
@@ -6,7 +19,7 @@ body {
 }
 
 header {
-    background-color: brown;
+    background-color: C;
     color: black;
     text-align: center;
     padding: 30px;
