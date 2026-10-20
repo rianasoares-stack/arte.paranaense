@@ -12,15 +12,15 @@
   --cor-rodape: rgb(255, 131, 127);
 }
 body {
-    background-color: brown;
-    color: black;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: C;
-    color: black;
+    background-color: var(--cor-fundo);
+    color: var(--cor-fundo);
     text-align: center;
     padding: 30px;
 }
@@ -44,7 +44,7 @@ nav {
 }
 
 nav a {
-    color: aliceblue;
+    color: var(--cor-clara);
     text-decoration: none;
     background-color: #9b9b9b;
     padding: 10px 15px;
@@ -63,7 +63,7 @@ main {
 }
 
 section {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -80,12 +80,12 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: rgb(0, 0, 0);
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 .card {
-    background-color: aliceblue;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #6b2d5c;
@@ -97,7 +97,7 @@ figcaption {
 }
 
 footer {
-    background-color: rgb(255, 131, 127);
+    background-color: var(--cor-rodape);
     color: aliceblue;
     text-align: center;
     padding: 20px;
@@ -105,7 +105,7 @@ footer {
 }
 
 button{
-    background-color: #ac1737;
+    background-color:var(--cor-principal);
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px 15px;
@@ -114,7 +114,7 @@ button{
 }
 
 button:hover{
-    background-color: aquamarine;
+    background-color: var(--cor-hover);
 }
 
 .curtir {
